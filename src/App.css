@@ -1,0 +1,72 @@
+.header
+{
+    background-color: blanchedalmond;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 40px;
+    position: fixed;
+    left: 300px;
+}
+.add
+{
+    padding: 10px 135px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.section
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 150px;
+}
+.products
+{
+    width: 50%;
+}
+.products h1
+{
+    text-align: center;
+}
+.cart
+{
+    width: 50%;
+}
+.productcontainer
+{
+    width: 300px;
+    border: 2px solid grey;
+    margin-top: 20px;
+    padding: 10px;
+}
+.cart h1
+{
+    text-align: center;
+}
+.cartbox
+{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 20px 0;
+}
+.cartbox button
+{
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
